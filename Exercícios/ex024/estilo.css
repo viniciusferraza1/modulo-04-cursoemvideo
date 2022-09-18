@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+
+    --cor1: #E5E5E5;
+    --cor2: #3F84E5;
+    --cor3: #FCA311;
+    --cor4: #444140;
+    --cor5: #E54B4B;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: var(--cor1);
+    background-color: #E5E5E5;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #E54B4B;
+    padding-top: 30px;
+    display: flex;
+    box-shadow: #444140;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    position: fixed;
+}
+
+#logo {
+    padding-left: 2vw;
+}
+
+#meio {
+    padding-left: 30vw;
+    padding-top: 1px;
+}
+
+#meio>h1 {
+    color: #E5E5E5;
+    margin-top: -10px;
+}
+
+#links {
+    padding-left: 30vw
+}
+
+#links>a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--cor4);
+}
+
+#links>a:hover {background-color: #E5E5E5;}
+
+.container {
+    display: flex;
+    background-color: #E5E5E5;
+    width: 100%;
+    padding-top: 15vh;
+}
+
+.container>#nav {
+    background-color: #FCA311;
+    width: 500px;
+    height: 83vh;
+    display: block;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+#nav>ul {
+    text-decoration: none;
+    text-align: left;
+    text-align: center;
+    padding-top: 2vh;
+    color: #444140;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+
+.container li {
+    padding-top: 10vh;
+    text-decoration: none;
+    color: #444140;
+}
+
+.container li>a {
+    text-decoration: none;
+    color: #444140;
+}
+
+.container li>a:hover {
+    background-color: #E54B4B;
+    width: 200px;
+}
+
+.container #mid {
+    display: block;
+    color: #444140;
+    padding: 2vh;
+    text-align: justify;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    background-color: var(--cor1);
+    width: 200vw;
+}
+
+.container #mid>p {
+    font-size: 100%;
+}
+
+.container #right {
+    display: block;
+    text-align: justify;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    background-color: var(--cor1)
+}
